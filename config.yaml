@@ -1,0 +1,28 @@
+# Model Configuration
+model:
+  name: "philschmid/bart-large-cnn-samsum"  # Model identifier from Hugging Face
+  max_input_length: 1024      # Maximum input token length
+  max_output_length: 128      # Maximum output token length
+  batch_size: 16
+  device: "cuda"              # Use "cuda" for GPU, "cpu" for CPU
+
+# Dataset Configuration
+dataset:
+  name: "samsum"
+  train_split: "train"
+  validation_split: "validation"
+  test_split: "test"
+  
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - "rouge1"
+    - "rouge2"
+    - "rougeL"
+  sample_size: 50  # Number of examples to use for qualitative analysis
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "summarization.log"

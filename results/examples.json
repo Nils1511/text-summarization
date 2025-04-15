@@ -1,0 +1,52 @@
+[
+  {
+    "dialogue": "Pete: Did you clean the hamster cage?\r\nAdelle: No. Is it my turn?\r\nPete: Yes. After school, no excuses.\r\nAdelle: Fine.",
+    "reference": "Adelle has to clean the hamster cage after school.",
+    "prediction": "Pete will clean the hamster cage after school. Adelle will clean it for her.  \u00a0    Adelle cleaned it for Pete. ."
+  },
+  {
+    "dialogue": "Gloria: This exam is a bit of a lottery in fact\nGloria: You can't really get prepared, it's all about experience\nEmma: But there are some rules and some typical texts right?\nGloria: You can see some texts from previous years\nGloria: <file_other>\nEmma: Wow that's very useful\nEmma: I have never seen this site\nGloria: Yes it's very good\nGloria: Actually it's good to read all the texts because you will see that some phrases repeat very often\nEmma: How much time do you have for all 4 parts?\nGloria: 4 hours\nEmma: Is it enough?\nGloria: Well it has to be\nGloria: Would be perfect to have 2 more hours... But on the other hand it would be really exhausting\nEmma: 4 hours and no breaks?\nGloria: No breaks :/ So it's really important to be really focused and try to write as fast as you can\nGloria: And read it carefully and correct during the last hour\nEmma: I'm going to read everything from that website, it's great",
+    "reference": "Gloria has an exam soon. It lasts 4 hours. Emma sent her a link to a website with some texts from previous years so that she can prepare for the exam better.",
+    "prediction": "Gloria sends Emma some texts from previous years to prepare her for the exam. She has 4 hours for all 4 parts. Emma is going to read everything from the website."
+  },
+  {
+    "dialogue": "Tina: I'll tell you something, this Emirate staff looks amazing, as movie stars\r\nAla: Oh yes, I know, that's for purpose \r\nAla: It's how it's suppose to be\r\nAla: They pay a lot of attention to the image\r\nTina: Looks nice, pleasure to observe\r\nTina: And I sucked at the airport, they've kept us one hour in the plane and finally I'll catch the evening flight back home\r\nTina: Could You imagine?\r\nTina: And you know, this way we had such a talkative pilot :-)\r\nAla: Oh, poor you\r\nAla: Pfff\r\nAla: And I'm on my way to a meeting\r\nTina: THE meeting?\r\nAla: Yes, keep your finger crossed\r\nTina: Sure, let me know how did it go\r\nAla: Ok darling, in touch",
+    "reference": "Tina will catch the evening flight back home. Ala is on her way to the meeting. She will let Tina know how it went.",
+    "prediction": "Ala is on her way to a meeting in the Emirate. Tina is at the airport waiting for her flight back home. She will let Ala know how the meeting went."
+  },
+  {
+    "dialogue": "Adam: Did you take the dog for a walk?\r\nMike: No, I did not have time,\r\nAdam: Ok, I'll take him with me.",
+    "reference": "Mike didn't have time to take the dog for a walk, so Adam will take it with him.",
+    "prediction": "Mike didn't take the dog for a walk. Adam will take him with him on his next walk with him.    \"I'll take him."
+  },
+  {
+    "dialogue": "Harry: and? have you listened to it?\r\nJacob: listened to what?\r\nHarry: to the song i sent you 3 days ago -.-\r\nJacob: oh shit, i completely forgot...\r\nHarry: ofc again\r\nJacob: don't be like this :* i'll do that later tonight\r\nHarry: heh, okay\r\nHarry: i'm really curious what you'll think about it\r\nJacob: i'll let you know, a bit busy right now, speak to you later!\r\nHarry: okay",
+    "reference": "Jacob hasn't listened to the song Harry sent him 3 days ago. Jacob will do it later tonight and let Harry know what he thinks.",
+    "prediction": "Jacob hasn't listened to the song that Harry sent him 3 days ago. He will listen to it later tonight. Harry wants to know what Jacob thinks about it. Jacob will let him know."
+  },
+  {
+    "dialogue": "Lisa: I have to clean the house.\r\nBob: Yes, it's very dirty.\r\nLisa: You can help me.\r\nBob: Why me?\r\nLisa: Because you helped make it dirty.\r\nBob: What do you want me to do?\r\nLisa: I want you to clean the bathroom.\r\nBob: Oh, that's easy.\r\nLisa: Clean the sink, the tub, the counter, and the toilet.\r\nBob: That's a lot of work.\r\nLisa: Tell me when you finish.\r\nBob: I don't think so. You'll just give me more work. ",
+    "reference": "Bob is going to help Lisa clean the house, he will clean the bathroom. ",
+    "prediction": "Lisa has to clean the house. Bob helped make it dirty. She wants him to help her clean the bathroom. Bob doesn't want to do it."
+  },
+  {
+    "dialogue": "Jeff: Should we go to the village party?\nLia: I'm too tired after hiking\nMico: I'd like to go, there may be some hot boys!\nLia: I doubt\nJim: like a real village boy?\nJim: who doesn't even speak English?\nMico: yes, the dummer, the better\nJim: haha, stupid fucks good, they say\nMico: I confirm!\nLia: not my cup of tea\nMico: I'll go there, who wants to join?\nJeff: I'll go as well\nMico: wanna drive?\nJeff: so you could drink?\nMico: would be nice, hahah\nJeff: not excited, but ok\nMico: thanks!",
+    "reference": "Mico and Jeff will go to the village party. Jeff will drive.",
+    "prediction": "Jeff, Lia and Mico are going to the village party. Lia is too tired to go. Mico and Jeff will drive to the party."
+  },
+  {
+    "dialogue": "Ben: Where are you?\r\nEmma: at the rare of the bus\r\nBen: why?\r\nEmma: there are some free seats here\r\nEmma: so I can have a nap even\r\nBen: good idea\r\nEmma: when are we going to arrive to NY?\r\nBen: around 4.30 PM\r\nEmma: if traffic is not crazy\r\nBen: right, we will see\r\nEmma: could you come here and wake me up around 4.15?\r\nBen: sure\r\nEmma: thanks!\r\nBen: sleep well\r\nEmma: I'll try",
+    "reference": "Emma is about to take a nap in the back of the bus to New York. Ben and Emma will be there around 4.30 pm. Ben will wake Emma up 15 minutes prior to their arrival.",
+    "prediction": "Emma is at the rare of the bus. There are some free seats so she can have a nap. Emma and Ben are going to arrive to NY around 4.30 PM. Ben will come and wake Emma up at 4.15."
+  },
+  {
+    "dialogue": "Linda: hey have we decided on a lunch place yet?\r\nRonnie: thought we were going for sushi\r\nLinda: Karen said she hates raw fish or something\r\nKaren: nah I'm ok with sushi, just thought we would go for smth cheaper this time ;p \r\nKaren: hard times are a-coming xd\r\nRonnie: been craving sushi all week long :( but i sooo get, K, maybe we should dial it down with the fancy places\r\nLinda: hey there is this pasta joint right next to our apartement\r\nLinda: you get it in like takeout boxes. we could take these out to the park\r\nRonnie: so down with that!\r\nKaren: same here! let's wait for Amanda tho\r\nLinda: @Amanda are you ok with pasta for lunch?\r\nRonnie: let's hope she checks her fb this time haha\r\nAmanda: hey guys, yes! whatever works for me :)",
+    "reference": "Karen wants something cheaper than sushi for lunch. Linda, Ronnie and Karen will get takeout pasta boxes to the park.",
+    "prediction": "Linda, Ronnie, Karen and Amanda are going to eat pasta for lunch at the pasta joint next to their apartment. They will wait for Amanda to check if she's ok with it."
+  },
+  {
+    "dialogue": "John: Ela i am coming in 10 mins please give me my walle outside t i forgot it\r\nEla: yes just saw it when you are here call me\r\nJohn: but your phone is busy thats why i messaged keep it free please i am getting late\r\nEla: oh yes was talking to mom ... its free now\r\nJohn: ok",
+    "reference": "John forgot his wallet. He wants Ela to give it to him outside in 10 minutes.",
+    "prediction": "John is coming in 10 minutes and wants Ela to give him his walle. Ela is busy talking to her mom, so she will give him the walle on her request."
+  }
+]

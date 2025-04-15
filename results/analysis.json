@@ -1,0 +1,323 @@
+{
+  "length_analysis": {
+    "dialogue_lengths": {
+      "mean": 92.00666666666666,
+      "median": 71.5,
+      "min": 9,
+      "max": 355
+    },
+    "reference_lengths": {
+      "mean": 19.606666666666666,
+      "median": 16.5,
+      "min": 3,
+      "max": 56
+    },
+    "prediction_lengths": {
+      "mean": 28.753333333333334,
+      "median": 27.0,
+      "min": 18,
+      "max": 81
+    },
+    "compression_ratios": {
+      "mean": 0.2949662012253042,
+      "median": 0.24577583779217121
+    },
+    "length_ratios": {
+      "mean": 1.8594557903199476,
+      "median": 1.6
+    }
+  },
+  "content_analysis": {
+    "content_overlap": {
+      "mean": 0.3819199970817319,
+      "median": 0.3651515151515151,
+      "min": 0.12121212121212122,
+      "max": 0.7931034482758621
+    },
+    "common_missed_words": [
+      [
+        "is",
+        22
+      ],
+      [
+        "to",
+        18
+      ],
+      [
+        "a",
+        17
+      ],
+      [
+        "and",
+        16
+      ],
+      [
+        "has",
+        16
+      ],
+      [
+        "she",
+        14
+      ],
+      [
+        "with",
+        14
+      ],
+      [
+        "about",
+        14
+      ],
+      [
+        "wants",
+        12
+      ],
+      [
+        "for",
+        12
+      ],
+      [
+        "it",
+        11
+      ],
+      [
+        "are",
+        11
+      ],
+      [
+        "the",
+        10
+      ],
+      [
+        "he",
+        10
+      ],
+      [
+        "at",
+        9
+      ],
+      [
+        "going",
+        9
+      ],
+      [
+        "her",
+        8
+      ],
+      [
+        "of",
+        8
+      ],
+      [
+        "that",
+        7
+      ],
+      [
+        "on",
+        7
+      ]
+    ],
+    "common_added_words": [
+      [
+        "the",
+        40
+      ],
+      [
+        "to",
+        34
+      ],
+      [
+        "and",
+        33
+      ],
+      [
+        "he",
+        33
+      ],
+      [
+        "will",
+        33
+      ],
+      [
+        "it",
+        33
+      ],
+      [
+        "for",
+        31
+      ],
+      [
+        "is",
+        31
+      ],
+      [
+        "a",
+        30
+      ],
+      [
+        "she",
+        30
+      ],
+      [
+        "her",
+        26
+      ],
+      [
+        "with",
+        26
+      ],
+      [
+        "are",
+        25
+      ],
+      [
+        "they",
+        23
+      ],
+      [
+        "of",
+        23
+      ],
+      [
+        "at",
+        20
+      ],
+      [
+        "him",
+        20
+      ],
+      [
+        "does",
+        19
+      ],
+      [
+        "his",
+        18
+      ],
+      [
+        "have",
+        18
+      ]
+    ]
+  },
+  "challenging_cases": [
+    {
+      "dialogue": "Janice: my son has been asking me to get him a hamster for his birthday\r\nJanice: should i?\r\nMartina: NO! NO! NO! NO! NO!\r\nMartina: i got one for my son and it stank up the whole house\r\nMartina: so don't do it!!!",
+      "reference": "Martina advises against getting a hamster. ",
+      "prediction": "Janice's son wants her to buy him a hamster for his birthday. Martina doesn't want it as she got one for her son and it stank up the whole house.",
+      "rouge_score": 0.10623781676413253,
+      "dialogue_length": 43,
+      "reference_length": 6,
+      "prediction_length": 30
+    },
+    {
+      "dialogue": "Judy: Why am I always attracted to jerks??\r\nJanice: It didn\u2019t work out with Andrew?\r\nJudy: He just wanted to fuck me\r\nJudy: When he got what he wanted he stopped calling and texting.\r\nJanice: And Bruce? He\u2019s not a jerk.\r\nJudy: He\u2019s sweet. Maybe too sweet for me\u2026\r\nJudy: He\u2019s a lovely and caring guy but I don\u2019t feel the butterflies\u2026 ",
+      "reference": "Judy thinks she's always attracted to bad guys.",
+      "prediction": "Judy is attracted to jerks. It didn't work out with Andrew, because he wanted to have sex with her. Bruce is sweet, but Judy doesn't feel the butterflies.",
+      "rouge_score": 0.12058212058212057,
+      "dialogue_length": 62,
+      "reference_length": 8,
+      "prediction_length": 28
+    },
+    {
+      "dialogue": "Myah: <file_photo>\r\nSelah: I can't see the phone number very well. Rewrite it plz\r\nMyah: <file_photo>\r\nSelah: The phone of that person is off",
+      "reference": "Selah called a person that did not pick up.",
+      "prediction": "Selah can't see the phone number of the person Myah sent a photo to. The phone of that person is off, so Selah advises Myah to change it.",
+      "rouge_score": 0.12280701754385966,
+      "dialogue_length": 24,
+      "reference_length": 9,
+      "prediction_length": 28
+    },
+    {
+      "dialogue": "Danna: How's your Saturday?\r\nReed: It was alright thanks\r\nDanna: Good\r\nReed: Yours ?\r\nDanna: Boring\r\nReed: Why?\r\nDanna: I'm angry I called maybe 5-8 of my friends and they aren't around or are busy.\r\nReed: Shame\r\nDanna: So it's is the next boring weekend for me\r\nReed: That sucks\r\nDanna: The only thing I can do is watching TV -.-\r\nReed: Haha lucky you\r\nDanna: Yeah haha\r\nReed: I don't have tv, our subscription expired and they never renewed it. They want us to pay for it so fuck it\r\nDanna: Yeah. What are you doing?\r\nReed: I'm in bed\r\nDanna: Work tomorrow?\r\nReed: No. Off tomorrow\r\nDanna: Nice\r\nReed: Indeed",
+      "reference": "Danna has a boring weekend and is watching TV. Reed is in bed. He has a free day tomorrow.",
+      "prediction": "Reed had a good Saturday. Danna found it boring. She called 5-8 of her friends but none of them were available or busy. She's going to watch TV this weekend. Reed doesn't have a tv because his subscription expired and they want him to pay for it.",
+      "rouge_score": 0.15487778498810295,
+      "dialogue_length": 112,
+      "reference_length": 19,
+      "prediction_length": 47
+    },
+    {
+      "dialogue": "Crystal: <file_photo>\r\nIrene: He's so big!\r\nCrystal: <file_photo> \r\nCrystal: I know right!\r\nIrene: and so cute!\r\nCrystal: he got so big he doesn't fit his clothes anymore\r\nIrene: time to go shopping with my little boy <3\r\nCrystal: yeah im just gonna go brankrupt\r\nIrene: Let me take him, I also promise to buy him something\r\nCrystal: you really wanna do that?\r\nIrene: why nont? I'm his aunt!\r\nCrystal: well yeah it's just such a drag\r\nIrene: you were always a bore when shopping :P just let me take the little man\r\nIrene: well have fun!\r\nCrystal: ok ",
+      "reference": "Irene will take Crystal's son shopping for clothes.",
+      "prediction": "Irene is going shopping with her little boy. She wants to take him with her as he's so big he doesn't fit any of his clothes. She will take him shopping and will buy him something.",
+      "rouge_score": 0.1566587864460205,
+      "dialogue_length": 98,
+      "reference_length": 8,
+      "prediction_length": 36
+    },
+    {
+      "dialogue": "Clara: Hi, what you up to?\r\nNeela: Not much, chilling out.\r\nClara: Just rewatching Dear White People on Netflix, love it!\ud83d\ude0d\r\nNeela: Oh yeah, heard of it, but not seen it yet? Any good?\r\nClara: Well, yes! I just said it was, LOL. It's about a fictional Ivy League University and the students in one House of Residence.\r\nNeela: Why is it called Dear White People?\r\nClara: That's the name of the radio show the main character, Sam, presents on college radio.\r\nNeela: Yeah, but why is it so good?\r\nClara: Well, it's mainly stories from the perspective of black students there, which I find very interesting. The characters are strong and likeable too.\r\nNeela: I suppose it's rather different from the UK, then?\r\nClara: It seems so, as there is a lot more racial awareness and discrimination there than here. It all kicks off when there is a Blackface party held by an elite group of white students, which gets out of hand.\r\nNeela: How's that?\r\nClara: Well, obviously, the black students try to break it up and there's also an incident where one guy, Reggie, gets a loaded gun pointed at him by a campus policeman after he gets into an argument with a white student. It may be at another party, though, I'm not sure of that.\r\nNeela: Oh, that sounds pretty strong stuff. What else happens?\r\nClara: Well, there is a young black guy called Lionel who is coming to terms with being gay and is finding his voice as a journalist. He unearths corruption at the uni and he and Sam also uncover some conspiracy theory stuff about secret societies.\r\nNeela: Well, I must say, it does sound good, I'll check it out soon!\r\nClara: Definitely, there is supposed to be a Series 3 coming up next year, really looking forward to it!\r\nNeela: Well, thanks Clara, I'm just watching the rest of a movie and I'll try Dear White People.\r\nClara: Don't blame me if you get hooked and stay up till 4!\r\nNeela: See ya, love!\r\nClara: Bye!",
+      "reference": "Clara is rewatching Dear White People and strongly recommends it to Neela.",
+      "prediction": "Clara is rewatching Dear White People on Netflix. Neela hasn't seen it yet. It's about a fictional Ivy League University and the students in one House of Residence. The main character, Sam, presents a radio show on college radio. There is a Blackface party held by an elite group of white students, which gets out of hand. There's a young black guy called Lionel who is coming to terms with being gay and is finding his voice as a journalist. .",
+      "rouge_score": 0.16215808338049423,
+      "dialogue_length": 345,
+      "reference_length": 12,
+      "prediction_length": 81
+    },
+    {
+      "dialogue": "Julie: <file_photo>\r\nEmily: <3 Julie Love, i'm sending tons of kisses :* :* :* \ud83c\udf84\ud83c\udf84\ud83c\udf84\r\nJulie: Merry Christmas and a lovely mood throughout  the whole year, darling\r\nEmily: Thank you, for you too <3\r\nJulie: Thanks :* <file_photo> <file_photo>",
+      "reference": "Emily and Julie wish Merry Christmas to each other.",
+      "prediction": "Julie and Emily exchange Christmas greetings. Emily is sending lots of kisses to Julie. Julie sends Emily a photo of herself and Emily. .",
+      "rouge_score": 0.16666666666666666,
+      "dialogue_length": 39,
+      "reference_length": 9,
+      "prediction_length": 24
+    },
+    {
+      "dialogue": "Riley: Chloe is on tv!!\r\nJames: on which channel?\r\nJames: never mind i've found it\r\nJames: what is she doing? i don't get it\r\nRiley: this is a programme in which women undergo a complete metamorphosis.\r\nRiley: OMG she looks drop dead gorgeous!",
+      "reference": "Riley and James watch Chloe on tv undergoing a metamorphosis.",
+      "prediction": "Chloe is on TV. James doesn't understand what Chloe is doing. Riley thinks she looks gorgeous on the show. James has found it. .",
+      "rouge_score": 0.17769607843137256,
+      "dialogue_length": 43,
+      "reference_length": 10,
+      "prediction_length": 24
+    },
+    {
+      "dialogue": "Harry: heyyyy are you there??\r\nCindy: Yes dear what is it?\r\nHarry: Can you call Ela and tell her i need to talk urgent please pick my call.\r\nCindy: what happened now? an other fight :O\r\nHarry: please tell her\r\nCindy: MAN! you guys... am i some kind of a messenger service here?\r\nHarry: PLEASEEEEEEEEE ?\r\nCindy: ok doing.... but thats the last time.\r\nHarry: Yes like always:P\r\nCindy: Hate you seriously man.\r\nHarry: Thank you\r\nCindy: Done you can call her now.",
+      "reference": "Ela is not taking Harry's phone calls. Cindy calls Ela at Harry's request.",
+      "prediction": "Cindy will call Ela and tell her that Harry needs to talk to her urgently, as he had a fight with Ela.",
+      "rouge_score": 0.18120978120978118,
+      "dialogue_length": 83,
+      "reference_length": 13,
+      "prediction_length": 22
+    },
+    {
+      "dialogue": "Charlotte: Hello Paula, a funny question: how do you pronounce 'Natal lily', the name of the plant? It refers to the region of ZA and not to the word 'natal' as in 'his natal day', right?\r\nPaula: Hi Charlotte, 'nu tell', 'nu' as in 'number'.\r\nCharlotte: And the stress on the second syllable? Or the first?\r\nPaula: 2nd\r\nCharlotte: Thank you dear.\r\nPaula: <file_other>\r\nCharlotte: Lovely to hear your voice!!\r\nPaula: :$\r\nPaula: <file_other>\r\nCharlotte: :X",
+      "reference": "Paula helped Charlotte with correct pronunciation of \"Natal lily\".",
+      "prediction": "Charlotte asks Paula how to pronounce the name of the plant, Natal Lily. Paula tells Charlotte that the stress on the second syllable is higher than the first.",
+      "rouge_score": 0.18120978120978123,
+      "dialogue_length": 76,
+      "reference_length": 9,
+      "prediction_length": 28
+    }
+  ],
+  "statistical_analysis": {
+    "rouge1": {
+      "mean": 0.48250403117187063,
+      "median": 0.4782608695652174,
+      "std": 0.13847503801382258,
+      "min": 0.15384615384615383,
+      "max": 0.8771929824561403,
+      "q1": 0.3922077922077922,
+      "q3": 0.5714285714285715
+    },
+    "rouge2": {
+      "mean": 0.23680322610461066,
+      "median": 0.23669467787114845,
+      "std": 0.14160471339676847,
+      "min": 0.0,
+      "max": 0.7368421052631579,
+      "q1": 0.1340909090909091,
+      "q3": 0.31578947368421056
+    },
+    "rougeL": {
+      "mean": 0.38262228196413567,
+      "median": 0.3728813559322034,
+      "std": 0.12948529967423658,
+      "min": 0.10526315789473684,
+      "max": 0.8070175438596492,
+      "q1": 0.2930416068866571,
+      "q3": 0.4604395604395604
+    }
+  }
+}
